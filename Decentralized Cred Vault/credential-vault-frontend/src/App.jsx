@@ -233,7 +233,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto p-8 bg-gray-50 min-h-screen">
             <header className="flex justify-between items-center mb-8">
                 <h1 className="text-4xl font-extrabold text-gray-900">
-                    Decentralized Student Credential Vault made By Raghav in 2021
+                    Decentralized Student Credential Vault
                 </h1>
                 <WalletStatus />
             </header>
@@ -245,10 +245,13 @@ export default function App() {
                     <IssueCredential />
                     <VerifyCredential />
                 </div>
-            ) : (
-                <div className="text-center p-20 border-4 border-dashed border-gray-300 bg-gray-100 rounded-xl">
+            ) : ( 
+                <div className="text-center p-20 border-4 border-dashed border-gray-300 bg-gray-100 rounded-xl flex items-center justify-between col" >
                     <p className="text-xl text-gray-600">
                         Please connect your MetaMask wallet to access the Institution Panel (Issuer) or the Public Verification tool.
+                    </p>
+                    <p className="text-xl text-gray-600">
+                        Made by raghav in 2022 
                     </p>
                 </div>
             )}
