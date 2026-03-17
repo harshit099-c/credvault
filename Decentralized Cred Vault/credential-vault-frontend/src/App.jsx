@@ -233,7 +233,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto p-8 bg-gray-50 min-h-screen">
             <header className="flex justify-between items-center mb-8">
                 <h1 className="text-4xl font-extrabold text-gray-900">
-                    Decentralized Student Credential Vault
+                    Decentralized Student Credential Vault made By Raghav in 2021
                 </h1>
                 <WalletStatus />
             </header>
