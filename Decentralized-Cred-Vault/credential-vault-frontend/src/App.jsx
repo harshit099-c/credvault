@@ -250,9 +250,7 @@ export default function App() {
                     <p className="text-xl text-gray-600">
                         Please connect your MetaMask wallet to access the Institution Panel (Issuer) or the Public Verification tool.
                     </p>
-                    <p className="text-xl text-gray-600">
-                        Made by raghav in 2022 
-                    </p>
+                  
                 </div>
             )}
         </div>
